@@ -22,7 +22,6 @@ function saveData(event) {
 }
 
 //para juntar los dos arrays en uno:
-
 function sumArrays() {
     
     for (let i = 0; i < arrNames.length; i++) {
@@ -31,6 +30,7 @@ function sumArrays() {
 
     }
 }
+
 //para crear una lista que muestre a sumArrays:
 let list = document.createElement('ul');
     
@@ -48,7 +48,7 @@ function displayData(e) {
     console.log(filledList);
 }
 
-
+//Para sumar los gastos:
 function sumArrExpenses() {
     let sum = 0;
     for(let i = 0; i < arrExpenses.length; i++) {
